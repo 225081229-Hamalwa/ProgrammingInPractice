@@ -2,8 +2,8 @@
 
 int main() {
 
-    double revenue;
-    double expenses;
+    double revenue = 120500.99;
+    double expenses = 902500.95;
     double financialBalance;
 
     printf("Please Enter Revenue: \n");
@@ -21,7 +21,7 @@ int main() {
     } 
     else if (expenses > revenue) {
         printf("There is a deficit.\n");
-        printf("The Balance is: N$ %.2f\n", -financialBalance);
+        printf("The Balance is: N$ -%.2f\n", -financialBalance);
 
     } 
     else {
